@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #f2f7fc;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  margin-right: 10px;
+  color: #ff8c00;
+}
+.header-title {
+  font-family: 'roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff8c00;
+  font-style: italic;
+}
+.blog-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.blog-list {
+  margin: 10px;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.logout-button {
+  background-color: #ff8c00;
+  width: 60px;
+  height: 25px;
+  border: 0px;
+  margin: 7px;
+  border-radius: 5px;
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
